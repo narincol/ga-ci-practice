@@ -5,7 +5,7 @@ on:
   push:
     branches:
       -main
-
+      #modyfing for push test
 jobs:
   py-black:
     name: Binary search - Formatting (black)

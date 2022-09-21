@@ -5,6 +5,7 @@ on:
   push:
     branches:
       -main
+      #modyfing for push test
 jobs:
   py-mypy:
     name: Binary search - Typecheck (Mypy)
