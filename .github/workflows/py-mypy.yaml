@@ -2,7 +2,9 @@ name: Binary search - Typecheck (Mypy)
 
 on:
   workflow_dispatch: {}
-
+  push:
+    branches:
+      -main
 jobs:
   py-mypy:
     name: Binary search - Typecheck (Mypy)
